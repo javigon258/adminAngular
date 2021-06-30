@@ -34,7 +34,7 @@ $(document).ready(function(){
     $("*[data-theme]").click(function(e){
       e.preventDefault();
         var currentStyle = $(this).attr('data-theme');
-        store('theme', currentStyle);
+        //store('theme', currentStyle);
         $('#theme').attr({href: 'css/colors/'+currentStyle+'.css'})
     });
 

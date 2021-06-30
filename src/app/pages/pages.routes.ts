@@ -5,6 +5,7 @@ import { PagesComponent } from "./pages.component";
 import { Graficas1Component } from "./graficas1/graficas1.component";
 import { PrincipalComponent } from "./principal/principal.component";
 import { ProgressComponent } from "./progress/progress.component";
+import { AjustesCuentaComponent } from "./ajustes-cuenta/ajustes-cuenta.component";
 
 const pagesRoutes: Routes = [
     {
@@ -14,6 +15,7 @@ const pagesRoutes: Routes = [
             {path: 'inicio', component: PrincipalComponent},
             {path: 'progress', component: ProgressComponent},
             {path: 'grafica1', component: Graficas1Component},
+            {path: 'ajustes-cuenta', component: AjustesCuentaComponent},
             {path: '', redirectTo: '/inicio', pathMatch: 'full'},
         ]
     }
