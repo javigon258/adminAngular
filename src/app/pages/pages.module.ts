@@ -19,6 +19,8 @@ import { ProgressComponent } from "./progress/progress.component";
 import { IncrementadorComponent } from "../components/incrementador/incrementador.component";
 import { GraficoDonaComponent } from "../components/grafico-dona/grafico-dona.component";
 import { AjustesCuentaComponent } from './ajustes-cuenta/ajustes-cuenta.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { AjustesCuentaComponent } from './ajustes-cuenta/ajustes-cuenta.componen
         PagesComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AjustesCuentaComponent
+        AjustesCuentaComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         PrincipalComponent,

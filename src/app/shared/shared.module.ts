@@ -8,8 +8,11 @@ import { NopagefoundComponent } from "./nopagefound/nopagefound.component";
 import { SidebarComponent } from "./sidebar/sidebar.component";
 
 @NgModule({
-    imports:[RouterModule,CommonModule],
-    declarations: [    
+    imports:[
+      RouterModule,
+      CommonModule
+    ],
+    declarations: [
         HeaderComponent,
         SidebarComponent,
         CookiesComponent,
